@@ -1,0 +1,81 @@
+body{
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.control-dots {
+  visibility: hidden;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.topCarousel {
+  height: 90vh;
+}
+
+.contact-modal .modal-content {
+  background-color: #ffc720;
+  /* opacity: 0.7; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .topCarousel {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .topCarousel {
+    height: 40vh;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .topCarousel {
+    height: 30vh;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .topCarousel {
+    height: 20vh;
+  }
+}
